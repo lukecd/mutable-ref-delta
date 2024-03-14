@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import TextEditor from "../../components/TextEditor"; // Adjust the import path based on your project structure
-import { diff_match_patch } from "diff-match-patch";
+import TextEditor from "../../components/TextEditor";
 
 const HomePage: React.FC = () => {
 	// State variables for the text in each TextEditor
